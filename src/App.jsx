@@ -30,7 +30,7 @@ function App() {
         />
         <Route path='/books' element={<BooksPage />} />
         <Route path='/books/:bookId' element={<BookDetailsPage />} />
-
+        {/*         `/books/${currentBook.id}` */}
         <Route path='*' element={<h1>404 Page</h1>} />
       </Routes>
     </>
